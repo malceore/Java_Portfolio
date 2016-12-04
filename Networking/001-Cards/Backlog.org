@@ -1,0 +1,29 @@
+* DONE .gitignore file
+  CLOSED: [2015-01-11 Sun 13:30]
+* DONE Single Gradle build file
+  CLOSED: [2015-01-11 Sun 13:30]
+** Uses the default project layout
+* DONE Walking skeleton (Main.java)
+  CLOSED: [2015-01-11 Sun 13:32]
+** At project root use
+$ gradle build
+  ,,, BUILD SUCCESSFUL
+$ java -cp build/classes/main Main
+Cards
+* DONE JUnit dependency
+  CLOSED: [2015-01-11 Sun 18:34]
+* DONE Card class with unit tests
+  CLOSED: [2015-01-15 Thu 13:05]
+** Forgot to update it
+* DONE Deck class with unit tests
+  CLOSED: [2015-01-15 Thu 13:05]
+* TODO Hand class with unit tests
+* TODO Multi-project Gradle build
+* TODO Refactor into cards/main packages
+* TODO Deck.discard(Card)
+** Keep a separate discard pile? Or discard to bottom of the deck?
+*** Separate means increasing the interface
+**** reshuffle?
+**** look(int)
+**** pickup(int)
+*** Add to bottom is O(n)

@@ -1,0 +1,11 @@
+TODO
+-UML
+-sequence
+-usecase
+-dd
+
+-Get functional test for API to create entities, do one entity at a time and prove that they are correct.
+-Then when he actually publishes the only important part, the test script which he should publish at the start otherwise how can we even know 
+	if what we are doing is correct(?), then we can copy the CLI from the model class and modify it for our needs. Realy code reuse here.
+-Then we just need to get the CLI, File reader and API working as designed, Ie against the test file.
+-Finally we need to fluff out comments, recheck dd with changes and test packaging.
